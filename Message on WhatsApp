@@ -1,0 +1,1 @@
+javascript:var phone=prompt("Enter phone number","51982429464");var anchor = document.createElement('a');anchor.href = `https://api.whatsapp.com/send/?phone=${encodeURIComponent('+55' + phone.replace(/\D/g,""))}&text&type=phone_number&app_absent=0`;anchor.target='_blank';anchor.click();
